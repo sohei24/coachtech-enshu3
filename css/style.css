@@ -1,0 +1,41 @@
+.header {
+  color: darkblue;
+  font-weight: bold;
+  margin: 10px 0 10px 5px;
+}
+
+.header-list li {
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+}
+
+.header-logo {
+  font-size: 24px;
+  float: left;
+}
+
+.header-list {
+  list-style: none;
+}
+
+.photo {
+  width: 50%;
+  position: relative;
+  top: 100px;
+  display: block;
+  margin: 0 0 0 auto;
+  z-index: 20;
+}
+
+.message {
+  font-size: 4rem;
+}
+
+.blue-box {
+  background-color: darkblue;
+  width: 70vw;
+  height: 14vw;
+  position: relative;
+  top: 35%;
+  z-index: 10;
+}
